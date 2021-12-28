@@ -1,7 +1,7 @@
 #### 1. Evgeniy Ryabichenko ####
-#### 2. Contacts:####
+#### 2. Contacts: ####
 * Location: Vitebsk, Belarus
-* Phone: +375298989114
+* Phone: +375(29)89-89-114
 * Email: e.ryabichenko@gmail.com
 * GitHub: playmate19 
 #### 3. About Me ####
