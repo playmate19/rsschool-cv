@@ -23,4 +23,4 @@ return a * b
 *  Video course CS50
 * Web Development for Beginners: HTML and CSS :https://stepik.org/course/38218
 #### 8. Language: ####
-English level : A2
+English level: A2
