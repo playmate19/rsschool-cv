@@ -1,1 +1,8 @@
-123
+html {
+    font-family: Roboto, sans-serif;
+    --primary-color: #2f80ed;
+    --secondary-color: #333333;
+    --bg-color: #ffffff;
+  
+  }
+  
