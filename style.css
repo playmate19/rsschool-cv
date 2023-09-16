@@ -1,124 +1,126 @@
-html {
-    font-family: Roboto, sans-serif;
-    --primary-color: #2f80ed;
-    --secondary-color: #333333;
-    --bg-color: #ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-  
-  }
-  
-  body {
-    background-color: var(--bg-color);
-  }
-  .cv {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  * {
-    color: var(--secondary-color);
-  }
-  
-  h1 {
-    color: var(--primary-color);
-    margin-bottom: 0.25em;
-  }
-  
-  h2 {
-    color: var(--secondary-color);
-    font-size: 1em;
-    margin-top: 0;
-    margin-bottom: 1em;
-  }
-  
-  h3 {
-    color: var(--primary-color);
-  }
-  
-  a {
-    color: var(--primary-color);
-  }
-  
-  section {
-    margin-bottom: 3em;
-    position: relative;
-  }
-  
-  
-  figure {
-      border: thin #c0c0c0 solid;
-      display: flex;
-      flex-flow: column;
-      padding: 5px;
-      max-width: 220px;
-      margin: auto;
-  }
-  
-  .img {
-      max-width: 220px;
-      max-height: 220px;
-  }
-  
-  figcaption {
-      background-color:  #000;
-      color: #fff;
-      font: italic smaller sans-serif;
-      padding: 3px;
-      text-align: center;
-  }
-  .contacts {
-    margin-bottom: 2em;
-  }
-  
-  .contact {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  .contact__type {
-    min-width: 90px;
-  }
-  
-  .experience  {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 2em;
-  }
-  
-  .experience__date {
-    min-width: 185px;
-    margin-bottom: 1em;
-  }
-  
-  .experience__name {
-    font-weight: bold;
-  }
-  
-  .Languages {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 2em;
-    
-  }
-  .example {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 2em;
-     
-  }
-  .year {
-      margin-left: auto;
-      margin-right: auto;
-      width: 6em
-   
-  
-  .rs  {
-     display: block;
-      margin-left: auto;
-      margin-right: auto
-   
-  }
-  
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  width: 19%;
+  float: right;
+  margin: 2px;
+  padding: 5px 10px;
+  background: #f5ba5b
+}
+
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.info-text {
+  margin-top: 20px;
+}
+
+.contact__type {
+  padding-top: 30px;
+}
+
+.info h1 {
+  color: #86898f;
+  margin: 0px;
+  font-style: italic;
+
+}
+
+.info h2 {
+  color: #86898f;
+  margin: 0px;
+  font-style: italic;
+
+}
+
+.info {
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.contact {}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-yellow {
+  background-color: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.Languages {
+  padding: 0 20px;
+}
+
+.Languages li {
+  color: #86898f
+}
+
+.description {
+  background: #beed;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+}
+
+.dg-bluue {
+  background: #b7e0ed;
+}
+
+.skilll {
+  list-style: square;
+}
+
+.end {
+  width: 75%;
+  margin: auto;
+  text-align: center
+}

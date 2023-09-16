@@ -1,129 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>My CV</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <div class="cv">
-      <section>
-        <h1>Evgeniy Ryabichenko</h1>
-        <h2> Junior Web developer</h2>
-        <nav>
-          <a href="#ed">Education and  Experience</a>
-          <a href="#pr">Projects</a>
-          <a href="#co">Code Example</a>
-          <a href="#la">Languages</a>
-          <a href="#sk">skills</a>
-        </nav>
-        <div class="photo">
-            <figure class="photo">
-              <img src="https://avatars.githubusercontent.com/u/95683977?v=4" 
-              alt="Evgeniy Ryabichenko" />
-               <figcaption>playmate19</figcaption>
-            </figure>
-          </div>
-          <div class="contacts">
-            <div class="contact">
-              <div class="contact__type">
-                Github
-              </div>
-              <div class="contact__value">
-                <a href="https://github.com/playmate19/">github.com/playmate19</a>
-              </div>
-            </div>
-            <div class="contact">
-              <div class="contact__type">
-                Email
-              </div>
-              <div class="contact__value">
-                <a href="e.ryabichenko@gmail.com">e.ryabichenko@gmail.com</a>
-              </div>
-            </div>
-          </div>
-          <div class="description">
-            I can negotiate with people, I work well in a team and I can delegate. I always want to learn something new. I want to learn Front-End Development.
-          </div>
-        </section>
-      </header>
-        <section>
-          <main>
-            <h3 id="ed"> Education and  Experience</h3>
-      
-            <div class="experience">
-              <div class="experience__date">2013 - 2018</div>
-              <div class="experience__description">
-                <div class="experience__company">Belarusian National Technical University</div>
-                <div class="experience__name">Power engineer</div>
-               
-              </div>
-            </div>
-            <div class="experience">
-              <div class="experience__date">
-                2018 - 2021
-              </div>
-      
-              <div class="experience__description">
-                <div class="experience__company">
-      Belarusian railway</div>
-                <div class="experience__name">Power engineer</div>
-                
-              </div>
-            </div>
-          </section>
-          <section>
-            <h2 id="pr">Projects</h2>
-                <div class="projects_s">
-                  <a href="https://github.com/playmate19/rsschool-cv">cv</a>
-                </div>
-            <h2 id="co">Code Example</h2>
-            <div class="Example">
-                  <code>
-                    function multiply (a, b) 
-                    { return a * b }
-                  </code>
-                </div>
-          </section>
 
-          <h2 id="la">Languages</h2>
-      <div class="Languages">
+<body>
+  <div class="container">
+    <header>
+      <div class="cv">
+        <section>
+          <nav class="navv">
+            <ul>
+              <li><a href="#ed">Education and Experience</a></li>
+              <li><a href="#pr">Projects</a></li>
+              <li><a href="#co">Code Example</a></li>
+              <li><a href="#la">Languages</a></li>
+              <li><a href="#sk">skills</a></li>
+            </ul>
+          </nav>
+
+          <div class="info">
+            <figure class="photo">
+              <img src="https://avatars.githubusercontent.com/u/95683977?v=4" alt="Evgeniy Ryabichenko" />
+            </figure>
+            <div class="info-text">
+              <h1>Evgeniy Ryabichenko</h1>
+              <h2> Junior Web developer</h2>
+
+
+              <div class="contact">
+                <div class="contact__type">
+                  Github
+                </div>
+                <div class="contact__value">
+                  <a href="https://github.com/playmate19/">github.com/playmate19</a>
+                </div>
+              </div>
+              <div class="contact">
+                <div class="contact__type">
+                  Email
+                </div>
+                <div class="contact__value">
+                  <a href="mailto:e.ryabichenko@gmail.com">e.ryabichenko@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="description">
+        I can negotiate with people, I work well in a team and I can delegate. I always want to learn something new. I
+        want to learn Front-End Development.
+      </div>
+      </section>
+    </header>
+    <main>
+      <section>
+        <div class="card bg-yellow" id="ed">
+          <h3 id=""> Education and Experience</h3>
+
+          <div class="experience">
+            <div class="experience__date">2013 - 2018</div>
+            <div class="experience__description">
+              <div class="experience__company">Belarusian National Technical University</div>
+              <div class="experience__name">Power engineer</div>
+
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience__date">
+              2018 - 2021
+            </div>
+
+            <div class="experience__description">
+              <div class="experience__company">
+                Belarusian railway</div>
+              <div class="experience__name">Power engineer</div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="card bg-red" id="pr">
+          <h2>Projects</h2>
+          <div class="projects_s">
+            <a href="https://github.com/playmate19/rsschool-cv">cv</a>
+          </div>
+
+          <h2 id="co">Code Example</h2>
+          <div class="Example">
+            <code>
+                      function multiply (a, b) 
+                      { return a * b }
+                    </code>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="card bg-green">
+          <h2 ">Languages</h2>
+        <div class=" Languages" id="la">
             <ul>
               <li>English: A2</li>
               <li>Russian: Native</li>
-              
+
             </ul>
-          </div>
-    </section>
-    
-    <section>
+        </div>
+  </div>
+  </section>
+
+
+  <section>
+    <div class="card dg-bluue">
       <h2 id="sk">skills</h2>
-      <div class="skills">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-               <li>JavaScript</li>
-                
-            
-            </ul>
-          </div>
-    </section>
-</div>
+
+      <ul class="skilll">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+
+
+      </ul>
+    </div>
+  </section>
+  </div>
 </body>
 </main>
-<footer>
-<p class="year">2022</p>
-    
-   
-    
-<a class="rs" href="https://rs.school/js-stage0" title="Link to RSSchool " aria-label="Link to RSSchool">
 
-         <img src="https://rs.school/images/rs_school_js.svg" height="75" width="100"  alt="RS School" />
-</a>
-</footer>    
+<footer>
+  <div class="end">
+    <p class="year">2023</p>
+    <a class="rs" href="https://rs.school/js-stage0" title="Link to RSSchool " aria-label="Link to RSSchool">
+      <img src="https://rs.school/images/rs_school_js.svg" height="75" width="100" alt="RS School" />
+    </a>
+  </div>
+</footer>
 </body>
+
 </html>
